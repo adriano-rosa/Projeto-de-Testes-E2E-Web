@@ -1,0 +1,63 @@
+[
+  {
+    "description": "    Sendo um visitante do site Projeto de Testes E2E (Web)\n    Quero poder acessar a sessão de albuns de fotos\n    Para que possa capturar os dados exbidos e salvalos.",
+    "keyword": "Feature",
+    "name": "testeAutomacaoE2E",
+    "line": 1,
+    "id": "testeautomacaoe2e",
+    "tags": [],
+    "uri": "testeAutomacaoE2E.feature",
+    "elements": [
+      {
+        "id": "testeautomacaoe2e;acessar-sessão-de-albuns-de-fotos",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Acessar sessão de albuns de fotos",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "que o usuário acesse a página de guia",
+            "result": {
+              "status": "passed",
+              "duration": 4517000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "deve permitir acessar o link de albuns e fotos e abri-lo",
+            "result": {
+              "status": "passed",
+              "duration": 716000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "permitir capturar os dados em tela e salvá-los num array JSON",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "validar os dados do objeto retornado com id igual a \"6\"",
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

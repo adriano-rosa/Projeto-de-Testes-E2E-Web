@@ -1,0 +1,17 @@
+
+História:
+
+Sendo um visitante do site Projeto de Testes E2E (Web)
+Quero poder acessar a sessão de albuns de fotos
+Para que possa capturar os dados exbidos e salvalos.
+
+
+Funcionalidade: Capturar dados exibidos
+    Dado que o usuário acessa a página inicial
+    Quando realizar o acesso a página de guia
+    Então deve permitir acessar o link /albums/1/photos e abri-lo
+    E permitir capturar os dados em tela e salvá-los num array JSON
+    E validar os dados do objeto retornado com id igua a 6
+
+
+
