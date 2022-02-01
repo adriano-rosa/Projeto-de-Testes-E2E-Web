@@ -1,9 +1,11 @@
 Given(/^que o usuário acesse a página de guia$/, () => {
 	cy.visit('/')
+    
 });
 
 When(/^deve permitir acessar o link de albuns e fotos e abri-lo$/, () => {
 	cy.visit('/guide/')
+
 });
 
 Then(/^permitir capturar os dados em tela e salvá-los num array JSON$/, () => {

@@ -8,4 +8,4 @@ Scenario: Acessar sessão de albuns de fotos
     Given que o usuário acesse a página de guia
     When deve permitir acessar o link de albuns e fotos e abri-lo
     Then permitir capturar os dados em tela e salvá-los num array JSON
-     And validar os dados do objeto retornado com id igual a "6"
+    And  validar os dados do objeto retornado com id igual a "6"
